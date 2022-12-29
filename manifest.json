@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 3,
+    "name" : "Color Picker",
+    "description" : "A Simple Color Picker Extension by Mahmood Hassan Rameem. Easily Pick Any Color Of The Screen, View The Color And Color Code. Copy The Color Code",
+    "version" : "0.1",
+
+    "action" : {
+        "default_popup" : "index.html"
+    },
+
+    "icons" : {
+        "128" : "logo.png"
+    }
+}

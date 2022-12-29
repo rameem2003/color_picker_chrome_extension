@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.appBody{
+    width: 350px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.appBody .picker{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appBody .picker #pickBtn{
+    background-color: #2374E1;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.appBody .colorSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appBody .colorSection .box{
+    width: 22px;
+    height: 22px;
+    background-color: #2374E1;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.appBody .colorSection .code{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    cursor: pointer;
+}
